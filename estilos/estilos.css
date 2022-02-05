@@ -404,7 +404,7 @@ body footer {
   }
   body section h1 {
     text-align: center;
-    font-size: x-large;
+    font-size: 1.5em;
     font-family: serif;
     text-transform: uppercase;
     letter-spacing: normal;
@@ -412,7 +412,7 @@ body footer {
   }
   body section p {
     text-align: center;
-    font-size: medium;
+    font-size: 1em;
     text-transform: uppercase;
   }
   body section .imgPrincipal {
@@ -550,7 +550,7 @@ body footer {
   body footer .quehacemos h5 {
     text-transform: uppercase;
     font-family: fantasy;
-    font-size: x-large;
+    font-size: 1.5em;
     letter-spacing: 3px;
   }
   body footer .quehacemos p {
@@ -565,7 +565,7 @@ body footer {
   body footer .redes h5 {
     text-transform: uppercase;
     font-family: fantasy;
-    font-size: x-large;
+    font-size: 1.5em;
     letter-spacing: 3px;
   }
   body footer .redes img:hover {
@@ -576,32 +576,37 @@ body footer {
     display: grid;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-    -ms-grid-rows: 0.1fr 0.1fr 1fr;
-        grid-template-rows: 0.1fr 0.1fr 1fr;
-        grid-template-areas: "menu" "titulo2" "table";
+    -ms-grid-rows: 0.1fr 0.4fr 0.1fr 1fr;
+        grid-template-rows: 0.1fr 0.4fr 0.1fr 1fr;
+        grid-template-areas: "header" "menu" "titulo2" "table";
     margin-right: 0px;
     margin-left: 0px;
   }
+  .sectionProductos header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: header;
+  }
   .sectionProductos h2 {
-    -ms-grid-row: 2;
+    -ms-grid-row: 3;
     -ms-grid-column: 1;
     grid-area: titulo2;
     text-align: center;
-    font-size: medium;
+    font-size: 1em;
     font-family: serif;
     text-transform: uppercase;
     letter-spacing: normal;
-    margin: 20px;
+    margin: 0;
   }
   .sectionProductos .menu {
-    -ms-grid-row: 1;
+    -ms-grid-row: 2;
     -ms-grid-column: 1;
     grid-area: menu;
     width: 100%;
     margin-top: 20px;
   }
   .sectionProductos .table {
-    -ms-grid-row: 3;
+    -ms-grid-row: 4;
     -ms-grid-column: 1;
     grid-area: table;
     background-color: #72BE8D;
@@ -708,6 +713,358 @@ body footer {
   .crearCuenta p a:hover {
     color: white;
     text-decoration: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 0.2fr 0.2fr 0.6fr;
+        grid-template-rows: 1fr 0.2fr 0.2fr 0.6fr;
+        grid-template-areas: "section" "div1" "div2"  "footer";
+  }
+  body section {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: section;
+  }
+  body section h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: serif;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    padding-top: 15%;
+  }
+  body section p {
+    text-align: center;
+    font-size: x-large;
+    text-transform: uppercase;
+  }
+  body section .imgPrincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body section .imgPrincipal .img-fluid {
+    width: 90%;
+  }
+  body .div1 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: div1;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+  }
+  body .div1 .enviosPagos {
+    width: 80%;
+    height: 80%;
+    background-color: #72be8d79;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    margin-bottom: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+  body .div1 .enviosPagos .envioGratis {
+    padding-top: 10%;
+  }
+  body .div1 .enviosPagos .envioGratis h3 {
+    padding: 10px;
+    text-shadow: 7px 1px 7px #000;
+  }
+  body .div1 .enviosPagos .envioGratis p {
+    color: #8d8d8d;
+  }
+  body .div1 .pagaQuieras {
+    margin-top: 20%;
+  }
+  body .div1 .pagaQuieras h3 {
+    padding: 10px;
+    text-shadow: 7px 1px 7px #000;
+  }
+  body .div1 .pagaQuieras p {
+    color: #8d8d8d;
+  }
+  body .div2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: div2;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20%;
+    margin-left: 10%;
+  }
+  body .div2 .contacto {
+    width: 90%;
+    height: 90%;
+    background-color: #72be8d79;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  body .div2 .contacto h4 {
+    text-shadow: 7px 1px 7px #000;
+    padding: 10px;
+  }
+  body .div2 .contacto input {
+    width: 80%;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+  }
+  body .div2 .contacto textarea {
+    width: 80%;
+    height: 25%;
+    text-align: center;
+    margin-top: 0;
+  }
+  body .div2 .contacto .botonContacto {
+    width: 24%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.589);
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 0;
+    text-align: center;
+  }
+  body .div2 .contacto .botonContacto:hover {
+    background: rgba(117, 117, 117, 0.89);
+  }
+  body footer {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: footer;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 0.5fr 0.5fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-template-areas: "quehacemos" "redes";
+    text-align: center;
+    background: #72be8d79;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 20px;
+    width: 100%;
+  }
+  body footer .quehacemos {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: quehacemos;
+  }
+  body footer .quehacemos h5 {
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: x-large;
+    letter-spacing: 3px;
+  }
+  body footer .quehacemos p {
+    text-transform: uppercase;
+    font-size: small;
+  }
+  body footer .redes {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: redes;
+  }
+  body footer .redes h5 {
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-size: x-large;
+    letter-spacing: 3px;
+  }
+  body footer .redes img:hover {
+    background: #43ff85;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 0.2fr 3fr 3fr 0.5fr;
+        grid-template-rows: 0.2fr 3fr 3fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+        grid-template-areas: "header header" "section section" "div1 div2" "footer footer";
+  }
+  body header {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: header;
+  }
+  body section {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: section;
+  }
+  body section h1 {
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    padding-top: 30px;
+  }
+  body section p {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  body section .imgPrincipal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .div1 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: div1;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0;
+  }
+  body .div1 .enviosPagos {
+    width: 450px;
+    height: 450px;
+    background-color: #72be8d79;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+            box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+    margin-bottom: 50px;
+    margin-left: 0;
+  }
+  body .div1 .enviosPagos .envioGratis {
+    padding-top: 20%;
+  }
+  body .div1 .enviosPagos .envioGratis h3 {
+    font-size: 1.5em;
+    padding: 10px;
+    text-shadow: 7px 1px 7px #000;
+  }
+  body .div1 .enviosPagos .envioGratis p {
+    color: #8d8d8d;
+  }
+  body .div1 .enviosPagos .pagaQuieras {
+    margin-top: 20%;
+  }
+  body .div1 .enviosPagos .pagaQuieras h3 {
+    font-size: 1.5em;
+    padding: 10px;
+    text-shadow: 7px 1px 7px #000;
+  }
+  body .div1 .enviosPagos .pagaQuieras p {
+    color: #8d8d8d;
+  }
+  body .div2 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 2;
+    grid-area: div2;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+  }
+  body .div2 .contacto {
+    width: 450px;
+    height: 450px;
+    background-color: #72be8d79;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+            box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+  }
+  body .div2 .contacto h4 {
+    text-shadow: 7px 1px 7px #000;
+    padding: 10px;
+  }
+  body .div2 .contacto input {
+    width: 75%;
+    background: #ffffff;
+    border-radius: 4px;
+    margin-bottom: 4px;
+    border: 1px solid #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+  }
+  body .div2 .contacto textarea {
+    width: 75%;
+    height: 25%;
+    text-align: center;
+    margin-top: 5px;
+  }
+  body .div2 .contacto .botonContacto {
+    width: 24%;
+    height: 10%;
+    background: rgba(0, 0, 0, 0.589);
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  body .div2 .contacto .botonContacto:hover {
+    background: rgba(117, 117, 117, 0.89);
+  }
+  body footer {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: footer;
+  }
+  .sectionProductos .table {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 3;
+    grid-area: table;
+    background-color: #72BE8D;
+    border-radius: 4px;
+    border: 2px solid;
+    width: 100%;
+  }
+  .sectionProductos .table th {
+    font-size: medium;
+  }
+  .sectionProductos .table td {
+    font-size: medium;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
