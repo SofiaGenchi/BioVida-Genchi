@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(#46917a, white);
+    background-repeat: no-repeat;
+    header{
+        grid-area: header;
+    }
+}
+
+footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "quehacemos redes";
+    text-align: center;
+    background: #72be8d79;
+    padding-top: 50px;
+    .quehacemos{
+        grid-area: quehacemos;
+        h5{
+            text-transform: uppercase;
+            font-family: fantasy;
+            font-size: x-large;
+            letter-spacing: 3px;
+        }
+        p{
+            text-transform: uppercase;
+            font-size: small;
+        }
+    }
+    .redes{
+        grid-area: redes;
+        h5{
+            text-transform: uppercase;
+            font-family: fantasy;
+            font-size: x-large;
+            letter-spacing: 3px;
+        }
+        img:hover{
+            background: #43ff85;
+        }
+    }
+}

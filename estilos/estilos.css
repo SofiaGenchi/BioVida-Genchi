@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#46917a), to(white));
+  background-image: linear-gradient(#46917a, white);
+  background-repeat: no-repeat;
+}
+
+body header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+  display: -ms-grid;
+  display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: "quehacemos redes";
+  text-align: center;
+  background: #72be8d79;
+  padding-top: 50px;
+}
+
+footer .quehacemos {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: quehacemos;
+}
+
+footer .quehacemos h5 {
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: x-large;
+  letter-spacing: 3px;
+}
+
+footer .quehacemos p {
+  text-transform: uppercase;
+  font-size: small;
+}
+
+footer .redes {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: redes;
+}
+
+footer .redes h5 {
+  text-transform: uppercase;
+  font-family: fantasy;
+  font-size: x-large;
+  letter-spacing: 3px;
+}
+
+footer .redes img:hover {
+  background: #43ff85;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 0.2fr 3fr 3fr 0.5fr;
+      grid-template-rows: 0.2fr 3fr 3fr 0.5fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+      grid-template-areas: "header header" "section section" "div1 div2" "footer footer";
+}
+
+body header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: header;
+}
+
+body section {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: section;
+}
+
+body section h1 {
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  padding-top: 30px;
+}
+
+body section p {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+body section .imgPrincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .div1 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: div1;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body .div1 .enviosPagos {
+  width: 450px;
+  height: 450px;
+  background-color: #72be8d79;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+          box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+  margin-bottom: 50px;
+  margin-left: 155px;
+}
+
+body .div1 .enviosPagos .envioGratis {
+  padding-top: 20%;
+}
+
+body .div1 .enviosPagos .envioGratis h3 {
+  padding: 10px;
+  text-shadow: 7px 1px 7px #000;
+}
+
+body .div1 .enviosPagos .envioGratis p {
+  color: #8d8d8d;
+}
+
+body .div1 .enviosPagos .pagaQuieras {
+  margin-top: 20%;
+}
+
+body .div1 .enviosPagos .pagaQuieras h3 {
+  padding: 10px;
+  text-shadow: 7px 1px 7px #000;
+}
+
+body .div1 .enviosPagos .pagaQuieras p {
+  color: #8d8d8d;
+}
+
+body .div2 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 2;
+  grid-area: div2;
+  font-size: large;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 50px;
+}
+
+body .div2 .contacto {
+  width: 450px;
+  height: 450px;
+  background-color: #72be8d79;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+          box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+}
+
+body .div2 .contacto h4 {
+  text-shadow: 7px 1px 7px #000;
+  padding: 10px;
+}
+
+body .div2 .contacto input {
+  width: 75%;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-bottom: 4px;
+  border: 1px solid #000000;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+}
+
+body .div2 .contacto textarea {
+  width: 75%;
+  height: 25%;
+  text-align: center;
+  margin-top: 5px;
+}
+
+body .div2 .contacto .botonContacto {
+  width: 24%;
+  height: 10%;
+  background: rgba(0, 0, 0, 0.589);
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+body .div2 .contacto .botonContacto:hover {
+  background: rgba(117, 117, 117, 0.89);
+}
+
+body footer {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: footer;
+}
+
+.sectionProductos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 0.5fr 0.5fr 1.5fr 1fr;
+      grid-template-rows: 0.5fr 0.5fr 1.5fr 1fr;
+      grid-template-areas: "menu menu menu" "titulo2 titulo2 titulo2" "table table table" "table table table";
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+.sectionProductos h2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: titulo2;
+  text-align: center;
+  font-size: 2em;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+}
+
+.sectionProductos .menu {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: menu;
+  width: 18%;
+}
+
+.sectionProductos .table {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: table;
+  background-color: #72BE8D;
+  border-radius: 4px;
+  border: 2px solid;
+  width: 100%;
+}
+
+.sectionProductos .table .carrito {
+  background: #46917A;
+  border: none;
+  padding: 5px;
+  color: white;
+}
+
+.sectionProductos .table .carrito:hover {
+  background: #A7D3B2;
+}
+
+.formSesion {
+  width: 500px;
+  background-color: #72be8d79;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
+.formSesion h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.formSesion p {
+  height: 40px;
+  text-align: left;
+  font-size: 18px;
+}
+
+.formSesion .btn {
+  width: 100%;
+  background: #46917A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.formSesion .btn:hover {
+  background: #A7D3B2;
+}
+
+.crearCuenta {
+  width: 400px;
+  background-color: #72be8d79;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
+.crearCuenta h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.crearCuenta input {
+  width: 100%;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #46917A;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+.crearCuenta .botons {
+  width: 100%;
+  background: #46917A;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+
+.crearCuenta .botons:hover {
+  background: #A7D3B2;
+}
+
+.crearCuenta p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.crearCuenta p a {
+  color: white;
+  text-decoration: none;
+}
+
+.crearCuenta p a:hover {
+  color: white;
+  text-decoration: underline;
+}
+/*# sourceMappingURL=estilos.css.map */
