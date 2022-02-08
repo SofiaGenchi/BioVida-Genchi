@@ -68,6 +68,18 @@ footer .redes img:hover {
   background: #43ff85;
 }
 
+.formSesion, .crearCuenta {
+  background-color: #72be8d79;
+  padding: 30px;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 13px 37px #000;
+          box-shadow: 7px 13px 37px #000;
+}
+
 body {
   display: -ms-grid;
   display: grid;
@@ -126,6 +138,17 @@ body .div1 {
   text-align: center;
 }
 
+body .div1 .enviosPagos {
+  width: 450px;
+  height: 450px;
+  background-color: #72be8d79;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+          box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+}
+
 body .div1 .enviosPagos .envioGratis {
   padding-top: 20%;
 }
@@ -159,6 +182,17 @@ body .div2 {
   font-size: large;
   text-transform: uppercase;
   text-align: center;
+}
+
+body .div2 .contacto {
+  width: 450px;
+  height: 450px;
+  background-color: #72be8d79;
+  border-radius: 4px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
+          box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
 }
 
 body .div2 .contacto h4 {
@@ -341,29 +375,6 @@ body footer {
 .crearCuenta p a:hover {
   color: white;
   text-decoration: underline;
-}
-
-body .div1 .enviosPagos, body .div2 .contacto {
-  width: 450px;
-  height: 450px;
-  background-color: #72be8d79;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  -webkit-box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
-          box-shadow: 7px 10px 20px rgba(0, 0, 0, 0.295);
-}
-
-.formSesion, .crearCuenta {
-  background-color: #72be8d79;
-  padding: 30px;
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  -webkit-box-shadow: 7px 13px 37px #000;
-          box-shadow: 7px 13px 37px #000;
 }
 
 @media (max-width: 320px) {
