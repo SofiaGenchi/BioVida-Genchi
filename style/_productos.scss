@@ -1,41 +1,14 @@
-.sectionProductos {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.5fr 0.5fr 1.5fr 1fr;
-    grid-template-areas:
-        "menu menu menu"
-        "titulo2 titulo2 titulo2"
-        "table table table"
-        "table table table";
-    margin-right: 150px;
-    margin-left: 150px;
-    h2 {
-        grid-area: titulo2;
-        text-align: center;
-        font-size: 2em;
-        font-family: serif;
+section{
+    h2{
         text-transform: uppercase;
-        letter-spacing: 20px;
-
+        font-size: 3em;
+        background-color: #fcd1a4a8;
     }
-    .menu {
-        grid-area: menu;
-        width: 18%;
+    thead, tbody{
+        border: 1px solid;
+        background-color: #f2b17933;
     }
-    .table {
-        grid-area: table;
-        background-color: #72BE8D;
-        border-radius: 4px;
-        border: 2px solid;
-        width: 100%;
-        .carrito{
-            background: #46917A;
-            border: none;
-            padding: 5px;
-            color: white;
-            &:hover{
-                background: #A7D3B2;
-            }
-        }
+    .carrito:hover{
+        background-color: rgb(190, 190, 190);
     }
 }
