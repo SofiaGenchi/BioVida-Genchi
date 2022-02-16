@@ -10,7 +10,7 @@ body {
 }
 
 footer {
-  background-color: #D9BD9C;
+  background-color: #F2B279;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -215,7 +215,6 @@ section h2 {
 }
 
 section thead, section tbody {
-  border: 1px solid;
   background-color: #f2b17933;
 }
 
@@ -327,6 +326,87 @@ section .carrito:hover {
   }
   .elementorContainer {
     max-width: 320px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .elementorContainer .elementorWidget {
+    width: auto;
+  }
+  .div1 form {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin: 0;
+    margin-top: 0;
+  }
+  section h2 {
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: 375px) {
+  section div {
+    min-height: 375px;
+  }
+  section div h1 {
+    font-size: 1.5em;
+  }
+  section h3 {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .elementorContainer {
+    max-width: 375px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .elementorContainer .elementorWidget {
+    width: auto;
+  }
+  .div1 form {
+    height: auto;
+    width: auto;
+    padding: 20px;
+    margin: 0;
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 425px) {
+  section div {
+    min-height: 425px;
+  }
+  section div h1 {
+    font-size: 1.5em;
+  }
+  section h3 {
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .elementorContainer {
+    max-width: 425px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
