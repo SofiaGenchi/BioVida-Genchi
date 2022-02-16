@@ -39,8 +39,8 @@ footer .redes img:hover {
   background-color: #F2ECD8;
 }
 
-.crearCuenta {
-  background-color: #f2b17944;
+.div1 form, .crearCuenta {
+  background-color: #F2B279;
   padding: 30px;
   margin: auto;
   margin-top: 50px;
@@ -51,49 +51,14 @@ footer .redes img:hover {
           box-shadow: 7px 13px 37px #000;
 }
 
-section {
-  background-image: url(../imagenes/dietetica-online-background.jpg);
-  background-repeat: no-repeat;
-  opacity: 90%;
-}
-
-section div {
-  min-height: 550px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-section div h1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  font-size: 4em;
+section h1 {
   text-transform: uppercase;
-  color: black;
-  background-color: rgba(226, 199, 140, 0.295);
-  height: 100px;
+  text-align: center;
 }
 
 section h3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-transform: uppercase;
-  padding-bottom: 100px;
+  text-align: center;
+  margin-bottom: 200px;
 }
 
 .elementorContainer {
@@ -151,17 +116,7 @@ section h3 {
 }
 
 .div1 form {
-  height: 500px;
-  width: 450px;
-  background-color: #F2B279;
-  padding: 30px;
-  margin: auto;
-  margin-top: 50px;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  -webkit-box-shadow: 7px 13px 37px;
-          box-shadow: 7px 13px 37px;
+  width: 400px;
 }
 
 .div1 h4 {
@@ -210,12 +165,7 @@ section h3 {
 
 section h2 {
   text-transform: uppercase;
-  font-size: 3em;
-  background-color: #fcd1a4a8;
-}
-
-section thead, section tbody {
-  background-color: #f2b17933;
+  text-align: center;
 }
 
 section .carrito:hover {
@@ -223,7 +173,7 @@ section .carrito:hover {
 }
 
 .formSesion {
-  background-color: #f2b17944;
+  background-color: #F2B279;
   padding: 30px;
   margin: auto;
   margin-top: 50px;
@@ -310,125 +260,5 @@ section .carrito:hover {
 .crearCuenta p a:hover {
   color: #bf744942;
   text-decoration: underline;
-}
-
-@media (max-width: 320px) {
-  section div {
-    min-height: 350px;
-  }
-  section div h1 {
-    font-size: 1.5em;
-  }
-  section h3 {
-    font-size: 1em;
-    text-align: center;
-    padding-bottom: 0;
-  }
-  .elementorContainer {
-    max-width: 320px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .elementorContainer .elementorWidget {
-    width: auto;
-  }
-  .div1 form {
-    height: auto;
-    width: auto;
-    padding: 20px;
-    margin: 0;
-    margin-top: 0;
-  }
-  section h2 {
-    font-size: 1.5em;
-  }
-}
-
-@media (min-width: 375px) {
-  section div {
-    min-height: 375px;
-  }
-  section div h1 {
-    font-size: 1.5em;
-  }
-  section h3 {
-    font-size: 1em;
-    text-align: center;
-    padding-bottom: 0;
-  }
-  .elementorContainer {
-    max-width: 375px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .elementorContainer .elementorWidget {
-    width: auto;
-  }
-  .div1 form {
-    height: auto;
-    width: auto;
-    padding: 20px;
-    margin: 0;
-    margin-top: 0;
-  }
-}
-
-@media (min-width: 425px) {
-  section div {
-    min-height: 425px;
-  }
-  section div h1 {
-    font-size: 1.5em;
-  }
-  section h3 {
-    font-size: 1em;
-    text-align: center;
-    padding-bottom: 0;
-  }
-  .elementorContainer {
-    max-width: 425px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .elementorContainer .elementorWidget {
-    width: auto;
-  }
-  .div1 form {
-    height: auto;
-    width: auto;
-    padding: 20px;
-    margin: 0;
-    margin-top: 0;
-  }
 }
 /*# sourceMappingURL=estilos.css.map */
