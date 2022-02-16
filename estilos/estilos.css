@@ -51,53 +51,46 @@ footer .redes img:hover {
           box-shadow: 7px 13px 37px #000;
 }
 
-section h1 {
+.mainIndex section h1 {
   text-transform: uppercase;
   text-align: center;
 }
 
-section h3 {
+.mainIndex section h3 {
   text-align: center;
   margin-bottom: 200px;
 }
 
-.elementorContainer {
+.mainIndex .container-fluid .row .colContenedor {
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  background-color: #F2B279;
-  margin-bottom: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.elementorContainer .elementorWidget {
-  width: 33.333%;
+.mainIndex .container-fluid .row .colContenedor .colContenedorSmall {
+  margin: 0 auto;
+  height: 70%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-.elementorContainer .elementorWidget .elementorIcon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-bottom: 25px;
-}
-
-.elementorContainer h3,
-.elementorContainer p {
-  text-align: center;
+.mainIndex .container-fluid .row .colContenedor .colContenedorSmall img {
+  width: 100px;
 }
 
 section h2 {
@@ -198,34 +191,5 @@ section .carrito:hover {
 .crearCuenta p a:hover {
   color: #bf744942;
   text-decoration: underline;
-}
-
-@media (max-width: 425px) {
-  section h1 {
-    margin-bottom: 50px;
-  }
-  section h3 {
-    margin-bottom: 100px;
-  }
-  .elementorContainer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    background-color: white;
-  }
-  .elementorContainer .elementorWidget {
-    width: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
 }
 /*# sourceMappingURL=estilos.css.map */
