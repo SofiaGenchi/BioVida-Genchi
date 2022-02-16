@@ -39,7 +39,7 @@ footer .redes img:hover {
   background-color: #F2ECD8;
 }
 
-.div1 form, .crearCuenta {
+.crearCuenta {
   background-color: #F2B279;
   padding: 30px;
   margin: auto;
@@ -62,13 +62,13 @@ section h3 {
 }
 
 .elementorContainer {
-  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #F2B279;
+  margin-bottom: 100px;
 }
 
 .elementorContainer .elementorWidget {
@@ -100,69 +100,6 @@ section h3 {
   text-align: center;
 }
 
-.div1 {
-  margin-top: 10%;
-  padding: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.div1 form {
-  width: 400px;
-}
-
-.div1 h4 {
-  text-shadow: 7px 1px 7px #000;
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.div1 input {
-  width: 80%;
-  background: #ffffff;
-  border-radius: 4px;
-  margin-bottom: 4px;
-  border: 1px solid #000000;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-  text-align: left;
-  color: white;
-  margin-bottom: 20px;
-  margin-left: 10%;
-}
-
-.div1 textarea {
-  width: 80%;
-  height: 35%;
-  font-size: large;
-  margin-top: 5px;
-  margin-left: 10%;
-}
-
-.div1 .botonContacto {
-  margin-top: 10px;
-  width: 80%;
-  height: 10%;
-  background: rgba(0, 0, 0, 0.589);
-  border: none;
-  color: white;
-  font-size: 16px;
-  text-align: center;
-}
-
-.div1 .botonContacto:hover {
-  background: rgba(117, 117, 117, 0.89);
-}
-
 section h2 {
   text-transform: uppercase;
   text-align: center;
@@ -176,7 +113,7 @@ section .carrito:hover {
   background-color: #F2B279;
   padding: 30px;
   margin: auto;
-  margin-top: 50px;
+  margin-bottom: 50px;
   border-radius: 4px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
@@ -213,6 +150,7 @@ section .carrito:hover {
 
 .crearCuenta {
   width: 400px;
+  margin-bottom: 50px;
 }
 
 .crearCuenta h4 {
@@ -260,5 +198,34 @@ section .carrito:hover {
 .crearCuenta p a:hover {
   color: #bf744942;
   text-decoration: underline;
+}
+
+@media (max-width: 425px) {
+  section h1 {
+    margin-bottom: 50px;
+  }
+  section h3 {
+    margin-bottom: 100px;
+  }
+  .elementorContainer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: white;
+  }
+  .elementorContainer .elementorWidget {
+    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 /*# sourceMappingURL=estilos.css.map */
