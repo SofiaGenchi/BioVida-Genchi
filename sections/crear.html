@@ -24,11 +24,7 @@
       href="https://csshake.surge.sh/csshake.min.css"
     />
     <link rel="stylesheet" href="../estilos/estilos.css" />
-    <link
-      rel="shortcut icon"
-      href="../imagenes/squirrel.ico"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="../imagenes/ardilla.png" type="image/x-icon" />
 
     <title>Crear cuenta en BioVida</title>
   </head>
@@ -38,13 +34,7 @@
       <nav class="navbar navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <div class="shake-vertical">
-            <img
-              class="squirrel"
-              src="../imagenes/squirrel.png"
-              alt=""
-              width="40"
-              height="40"
-            />
+            <img class="squirrel" src="../imagenes/ardilla.png" alt="" width="40" height="40"/>
           </div>
           <button
             class="navbar-toggler"
@@ -109,51 +99,69 @@
       />
     </header>
     <!-- CONOCE NUESTROS PRODUCTOS -->
-    <section class="section">
-      <form class="col-sm-12 crearCuenta">
-        <h4>Formulario Registro</h4>
-        <input
-          type="text"
-          name="name"
-          placeholder="Ingrese Nombre y Apellido"
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="Ingrese su Correo Electrónico"
-        />
-        <input
-          type="number"
-          name="phonenumber"
-          placeholder="Ingrese su numero de telefono"
-        />
-        <input
-          type="password"
-          name="pass"
-          placeholder="Ingrese una contraseña"
-        />
-        <textarea
-          name="mensaje"
-          id="msg"
-          cols="40"
-          rows="5"
-          placeholder="Dejanos tu comentario"
-        ></textarea>
-        <input class="botons" type="button" value="Crear Cuenta" />
-        <p><a href="sesion.html">¿Ya tengo Cuenta?</a></p>
-      </form>
-    </section>
-
-    <div class="div1"></div>
-
-    <div class="div2"></div>
-
-    <footer class="col-sm-12 footer">
-      <div class="redes">
-        <h5>Seguinos en redes</h5>
-        <img src="../imagenes/whatsapp.png" alt="whatsapp" />
-        <img src="../imagenes/4691507_gmail_icon.png" alt="gmail" />
-        <img src="../imagenes/instagram logo_icon.png" alt="instagram" />
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <form class="crearCuenta">
+                <h4>Formulario Registro</h4>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Ingrese Nombre y Apellido"
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Ingrese su Correo Electrónico"
+                />
+                <input
+                  type="number"
+                  name="phonenumber"
+                  placeholder="Ingrese su numero de telefono"
+                />
+                <input
+                  type="password"
+                  name="pass"
+                  placeholder="Ingrese una contraseña"
+                />
+                <textarea
+                  name="mensaje"
+                  id="msg"
+                  cols="40"
+                  rows="5"
+                  placeholder="Dejanos tu comentario"
+                ></textarea>
+                <input class="botons" type="button" value="Crear Cuenta" />
+                <p><a href="sesion.html">¿Ya tengo Cuenta?</a></p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
+    <footer class="col-sm-12">
+      <div class="container containerRedes">
+        <div class="rowRedes row align-items-center">
+          <div class="col">
+            <h3>SEGUINOS EN NUESTRAS REDES</h3>
+          </div>
+          <div class="rowRedes row align-items-center">
+            <div class="col">
+              <div class="col">
+                <img src="../imagenes/whatsapp.png" alt="">
+              </div>
+              <div class="col">
+                <img src="../imagenes/4691507_gmail_icon.png" alt="">
+              </div>
+              <div class="col">
+                <img src="../imagenes/instagram logo_icon.png" alt="">
+              </div>
+            </div>
+        </div>
+      </div>
       </div>
     </footer>
 

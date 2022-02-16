@@ -1,7 +1,6 @@
 .crearCuenta{
     @extend %form;
-    width: 400px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
     h4{
         font-size: 2em;
         margin-bottom: 20px;
@@ -16,6 +15,9 @@
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         font-size: 18px;
         color: white;
+    }
+    textarea{
+        width: 100%;
     }
     .botons{
         width: 100%;
@@ -37,7 +39,7 @@
             color: #BF7449;
             text-decoration: none;
             &:hover{
-                color: #bf744942;
+                color: white;
                 text-decoration: underline;
             }
         }

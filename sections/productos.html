@@ -13,17 +13,17 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
     <link rel="stylesheet" href="../estilos/estilos.css" />
-    <link rel="shortcut icon" href="../imagenes/squirrel.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../imagenes/ardilla.png" type="image/x-icon" />
 
     <title>Productos</title>
 </head>
 
 <body>
   <header class="col-sm-12">
-    <nav class="navbar navbar-light bg-light fixed-top">
+    <nav class="col-sm-12 navbar navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <div class="shake-vertical">
-          <img class="squirrel" src="../imagenes/squirrel.png" alt="" width="40" height="40"/>
+          <img class="squirrel" src="../imagenes/ardilla.png" alt="" width="40" height="40"/>
         </div>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -55,15 +55,21 @@
         </div>
       </div>
     </nav>
-    <img src="../imagenes/dietetica-online-background.jpg" class="col-sm-12 img-fluid" alt="background productos dieteticos">
+    <img src="../imagenes/dietetica-online-background.jpg" class="img-fluid" alt="background productos dieteticos">
   </header>
 
     <!-- CONOCE NUESTROS PRODUCTOS -->
-    <section class="col-sm-12 section">
-        <div class="sectionProductos">
+    <main class="col-sm-12 mainProductos">
+      <div class="container">
+        <div class="row">
+          <div class="col align-self-start tituloProducto">
             <h2>Nuestros Productos</h2>
-        </div class="table-responsive">
-          <table class="table table-hover table-bordered table-light">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col align-self-start">
+          </div class="table-responsive">
+          <table class="col-sm-12 table table-hover table-bordered table-light">
             <thead>
               <tr>
                 <th scope="col">Código</th>
@@ -566,14 +572,28 @@
               </tr>
             </tbody>
           </table>
-    </section>
+          </div>
+        </div>
+      </div>
+    </main>
 
-    <footer class="col-sm-12 footer">
-      <div class="redes">
-        <h5>Seguinos en redes</h5>
-        <img src="../imagenes/whatsapp.png" alt="whatsapp">
-        <img src="../imagenes/4691507_gmail_icon.png" alt="gmail">
-        <img src="../imagenes/instagram logo_icon.png" alt="instagram">
+    <footer class="col-sm-12">
+      <div class="container containerRedes">
+        <div class="rowRedes row align-items-center">
+          <div class="col">
+            <h3>SEGUINOS EN NUESTRAS REDES</h3>
+          </div>
+          <div class="row align-items-center">
+            <div class="col">
+              <img src="../imagenes/whatsapp.png" alt="">
+            </div>
+            <div class="col">
+              <img src="../imagenes/4691507_gmail_icon.png" alt="">
+            </div>
+            <div class="col">
+              <img src="../imagenes/instagram logo_icon.png" alt="">
+            </div>
+        </div>
       </div>
     </footer>
 

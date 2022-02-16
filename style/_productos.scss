@@ -1,9 +1,13 @@
-section{
-    h2{
-        text-transform: uppercase;
-        text-align: center;
+.mainProductos{
+    .container{
+        .row{
+            .tituloProducto{
+                text-align: center;
+                text-transform: uppercase;
+            }
+        }
     }
     .carrito:hover{
-        background-color: rgb(190, 190, 190);
+        background-color: white;
     }
 }

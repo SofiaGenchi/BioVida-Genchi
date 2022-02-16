@@ -7,24 +7,23 @@
 body {
     background-color: #ffffff;
 }
- 
-footer {
+
+footer{
     background-color: #F2B279;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px;
- 
-    .redes {
-        h5 {
-            font-family: fantasy;
-            font-size: x-large;
-            letter-spacing: 3px;
+    .containerRedes{
+        .rowRedes{
+            h3{
+                font-family: fantasy;
+                text-align: center;
+                height: 100px;
+                display: flex;
+                align-items: center;
+            }
         }
-        img{
-            margin: 10px;
-            &:hover {
+        .col{
+            display: flex;
+            justify-content: center;
+            img:hover{
                 background-color: #F2ECD8;
             }
         }

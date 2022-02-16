@@ -11,31 +11,30 @@ body {
 
 footer {
   background-color: #F2B279;
+}
+
+footer .containerRedes .rowRedes h3 {
+  font-family: fantasy;
+  text-align: center;
+  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
 }
 
-footer .redes h5 {
-  font-family: fantasy;
-  font-size: x-large;
-  letter-spacing: 3px;
+footer .containerRedes .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-footer .redes img {
-  margin: 10px;
-}
-
-footer .redes img:hover {
+footer .containerRedes .col img:hover {
   background-color: #F2ECD8;
 }
 
@@ -43,12 +42,9 @@ footer .redes img:hover {
   background-color: #F2B279;
   padding: 30px;
   margin: auto;
-  margin-top: 50px;
   border-radius: 4px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
-  -webkit-box-shadow: 7px 13px 37px #000;
-          box-shadow: 7px 13px 37px #000;
 }
 
 .mainIndex section h1 {
@@ -93,13 +89,13 @@ footer .redes img:hover {
   width: 100px;
 }
 
-section h2 {
-  text-transform: uppercase;
+.mainProductos .container .row .tituloProducto {
   text-align: center;
+  text-transform: uppercase;
 }
 
-section .carrito:hover {
-  background-color: #bebebe;
+.mainProductos .carrito:hover {
+  background-color: white;
 }
 
 .formSesion {
@@ -142,8 +138,7 @@ section .carrito:hover {
 }
 
 .crearCuenta {
-  width: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .crearCuenta h4 {
@@ -161,6 +156,10 @@ section .carrito:hover {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 18px;
   color: white;
+}
+
+.crearCuenta textarea {
+  width: 100%;
 }
 
 .crearCuenta .botons {
@@ -189,7 +188,7 @@ section .carrito:hover {
 }
 
 .crearCuenta p a:hover {
-  color: #bf744942;
+  color: white;
   text-decoration: underline;
 }
 /*# sourceMappingURL=estilos.css.map */
