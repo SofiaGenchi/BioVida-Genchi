@@ -127,4 +127,13 @@ footer .containerRedes .col img:hover {
 .formSesion .btn:hover {
   background: #bf744977;
 }
+
+main .crearCuenta h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+main form {
+  background: whitesmoke;
+}
 /*# sourceMappingURL=estilos.css.map */
