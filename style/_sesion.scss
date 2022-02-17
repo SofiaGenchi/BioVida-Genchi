@@ -1,33 +1,5 @@
-.formSesion{
-    background-color: #F2B279;
-    padding: 30px;
-    margin: auto;
-    margin-bottom: 50px;
-    border-radius: 4px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-    box-shadow: 7px 13px 37px #000;
-    width: 500px;
-    height: 450px;
-    h5{
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
-    p{
-        height: 40px;
-        text-align: left;
-        font-size: 18px;
-    }
-    .btn{
-        width: 100%;
-        background: #BF7449;
-        border: none;
-        padding: 12px;
-        color: white;
-        margin: 16px 0;
-        font-size: 16px;
-        &:hover{
-            background: #bf744977;
-        }
+.iniciarSesion {
+    h3 {
+        text-align: center;
     }
 }

@@ -10,13 +10,11 @@ body {
 }
 
 footer {
-  background-color: #F2B279;
+  background-color: whitesmoke;
 }
 
 footer .containerRedes .rowRedes h3 {
-  font-family: fantasy;
   text-align: center;
-  height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,43 +87,8 @@ footer .containerRedes .col img:hover {
   background-color: white;
 }
 
-.formSesion {
-  background-color: #F2B279;
-  padding: 30px;
-  margin: auto;
-  margin-bottom: 50px;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-  -webkit-box-shadow: 7px 13px 37px #000;
-          box-shadow: 7px 13px 37px #000;
-  width: 500px;
-  height: 450px;
-}
-
-.formSesion h5 {
-  font-size: 30px;
-  margin-bottom: 20px;
-}
-
-.formSesion p {
-  height: 40px;
-  text-align: left;
-  font-size: 18px;
-}
-
-.formSesion .btn {
-  width: 100%;
-  background: #BF7449;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-}
-
-.formSesion .btn:hover {
-  background: #bf744977;
+.iniciarSesion h3 {
+  text-align: center;
 }
 
 main .crearCuenta h3 {
