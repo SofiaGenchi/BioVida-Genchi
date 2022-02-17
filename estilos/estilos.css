@@ -38,15 +38,6 @@ footer .containerRedes .col img:hover {
   background-color: #F2ECD8;
 }
 
-.crearCuenta {
-  background-color: #F2B279;
-  padding: 30px;
-  margin: auto;
-  border-radius: 4px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: white;
-}
-
 .mainIndex section h1 {
   text-transform: uppercase;
   text-align: center;
@@ -135,60 +126,5 @@ footer .containerRedes .col img:hover {
 
 .formSesion .btn:hover {
   background: #bf744977;
-}
-
-.crearCuenta {
-  margin-bottom: 10px;
-}
-
-.crearCuenta h4 {
-  font-size: 2em;
-  margin-bottom: 20px;
-}
-
-.crearCuenta input {
-  width: 100%;
-  background: #ffffff;
-  padding: 10px;
-  border-radius: 4px;
-  margin-bottom: 16px;
-  border: 1px solid #46917A;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
-  color: white;
-}
-
-.crearCuenta textarea {
-  width: 100%;
-}
-
-.crearCuenta .botons {
-  width: 100%;
-  background: #BF7449;
-  border: none;
-  padding: 12px;
-  color: white;
-  margin: 16px 0;
-  font-size: 16px;
-}
-
-.crearCuenta .botons:hover {
-  background: #bf744977;
-}
-
-.crearCuenta p {
-  height: 40px;
-  text-align: center;
-  font-size: 18px;
-}
-
-.crearCuenta p a {
-  color: #BF7449;
-  text-decoration: none;
-}
-
-.crearCuenta p a:hover {
-  color: white;
-  text-decoration: underline;
 }
 /*# sourceMappingURL=estilos.css.map */

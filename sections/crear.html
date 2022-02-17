@@ -71,13 +71,19 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="productos.html">Productos</a>
+                  <a class="nav-link" href="productos.html"
+                    >Productos</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="sesion.html">Iniciar Sesion</a>
+                  <a class="nav-link" href="sesion.html"
+                    >Iniciar Sesion</a
+                  >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="crear.html">Crear Cuenta</a>
+                  <a class="nav-link" href="crear.html"
+                    >Crear Cuenta</a
+                  >
                 </li>
                 <li class="nav-item">
                   <img
@@ -94,75 +100,71 @@
       </nav>
       <img
         src="../imagenes/dietetica-online-background.jpg"
-        class="img-fluid"
+        class="col-sm-12 img-fluid"
         alt="background productos dieteticos"
       />
     </header>
-    <!-- CONOCE NUESTROS PRODUCTOS -->
     <main>
-      <section class="section">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col">
-              <form class="crearCuenta">
-                <h4>Formulario Registro</h4>
-                <input
-                  type="text"
-                  name="name"
-                  placeholder="Ingrese Nombre y Apellido"
-                />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="Ingrese su Correo Electrónico"
-                />
-                <input
-                  type="number"
-                  name="phonenumber"
-                  placeholder="Ingrese su numero de telefono"
-                />
-                <input
-                  type="password"
-                  name="pass"
-                  placeholder="Ingrese una contraseña"
-                />
-                <textarea
-                  name="mensaje"
-                  id="msg"
-                  cols="40"
-                  rows="5"
-                  placeholder="Dejanos tu comentario"
-                ></textarea>
-                <input class="botons" type="button" value="Crear Cuenta" />
-                <p><a href="sesion.html">¿Ya tengo Cuenta?</a></p>
-              </form>
-            </div>
+      <div class="container">
+        <div class="row crearCuenta">
+          <div class="col crearCuenta">
+            <h2>Crear cuenta</h2>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos tu correo electrónico con nadie.</div>
+              </div>
+              <div class="mb-3">
+                <label for="name" class="form-label">Nombre</label>
+              <input class="form-control" type="text" placeholder="Nombre y Apellido" aria-label="default input example">
+              </div>
+              <div class="mb-3">
+                <label for="number" class="form-label">Numero de telefono</label>
+              <input class="form-control" type="number" placeholder="Numero de telefono" aria-label="default input example">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="input-group mb-3">
+                <textarea class="form-control" aria-label="With textarea" placeholder="Escribenos un comentario"></textarea>
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-outline-secondary">Crear cuenta</button>
+            </form>
+          </div>
+        </div>
+      </div>
     </main>
-    
+
     <footer class="col-sm-12">
-      <div class="container containerRedes">
+      <!-- <div class="container containerRedes">
         <div class="rowRedes row align-items-center">
           <div class="col">
             <h3>SEGUINOS EN NUESTRAS REDES</h3>
           </div>
-          <div class="rowRedes row align-items-center">
+          <div class="row align-items-center">
             <div class="col">
-              <div class="col">
-                <img src="../imagenes/whatsapp.png" alt="">
-              </div>
-              <div class="col">
-                <img src="../imagenes/4691507_gmail_icon.png" alt="">
-              </div>
-              <div class="col">
-                <img src="../imagenes/instagram logo_icon.png" alt="">
-              </div>
+              <img src="../imagenes/whatsapp.png" alt="">
+            </div>
+            <div class="col">
+              <img src="../imagenes/4691507_gmail_icon.png" alt="">
+            </div>
+            <div class="col">
+              <img src="../imagenes/instagram logo_icon.png" alt="">
             </div>
         </div>
-      </div>
-      </div>
+      </div> -->
     </footer>
 
     <script
