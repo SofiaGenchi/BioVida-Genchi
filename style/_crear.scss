@@ -1,12 +1,10 @@
-main{
-    .crearCuenta{
-        h3{
-            text-align: center;
-            text-transform: uppercase;
-        }
+.mainCrear{
+    h2{
+        text-align: center;
     }
     form{
-        background: whitesmoke;
+        border: 4px solid rgb(183, 187, 185);
+        padding: 20px;
+        background-color: mintcream;
     }
-    
 }

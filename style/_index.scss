@@ -15,8 +15,28 @@
             text-align: center;
         }
         .card:hover{
-            background-color: rgba(186, 111, 0, 0.556);
+            background-color: rgba(186, 121, 0, 0.707);
             opacity: 75%;
+        }
+    }
+}
+
+.buttonComprar{
+    display: grid;
+    grid-auto-columns: 1f;
+    grid-template-columns: 0.5fr 0.2fr 0.5fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". btn .";
+    padding: 20px;
+    .btn{
+        grid-area: btn;
+        background-color: rgba(165, 122, 42, 0.638);
+        &:hover{
+            background-color: gray;
+        }
+        .aComprar{
+            text-decoration: none;
+            color: black;
         }
     }
 }

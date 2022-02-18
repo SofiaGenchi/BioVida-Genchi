@@ -28,8 +28,36 @@ footer .iconRedes:hover {
 }
 
 .mainIndex .card-group .card:hover {
-  background-color: rgba(186, 111, 0, 0.556);
+  background-color: rgba(186, 121, 0, 0.707);
   opacity: 75%;
+}
+
+.buttonComprar {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1f;
+  -ms-grid-columns: 0.5fr 0.2fr 0.5fr;
+      grid-template-columns: 0.5fr 0.2fr 0.5fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: ". btn .";
+  padding: 20px;
+}
+
+.buttonComprar .btn {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: btn;
+  background-color: rgba(165, 122, 42, 0.638);
+}
+
+.buttonComprar .btn:hover {
+  background-color: gray;
+}
+
+.buttonComprar .btn .aComprar {
+  text-decoration: none;
+  color: black;
 }
 
 .mainProductos h2 {
@@ -40,16 +68,23 @@ footer .iconRedes:hover {
   background-color: #838383;
 }
 
-.iniciarSesion h3 {
+.mainSesion h2 {
   text-align: center;
 }
 
-main .crearCuenta h3 {
-  text-align: center;
-  text-transform: uppercase;
+.mainSesion form {
+  border: 4px solid #b7bbb9;
+  padding: 20px;
+  background-color: mintcream;
 }
 
-main form {
-  background: whitesmoke;
+.mainCrear h2 {
+  text-align: center;
+}
+
+.mainCrear form {
+  border: 4px solid #b7bbb9;
+  padding: 20px;
+  background-color: mintcream;
 }
 /*# sourceMappingURL=estilos.css.map */
