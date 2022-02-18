@@ -32,13 +32,12 @@ footer .iconRedes:hover {
   opacity: 75%;
 }
 
-.mainProductos .container .row .tituloProducto {
+.mainProductos h2 {
   text-align: center;
-  text-transform: uppercase;
 }
 
-.mainProductos .carrito:hover {
-  background-color: white;
+.mainProductos .containerProductos .carrito:hover {
+  background-color: #838383;
 }
 
 .iniciarSesion h3 {

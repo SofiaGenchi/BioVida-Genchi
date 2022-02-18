@@ -1,13 +1,10 @@
 .mainProductos{
-    .container{
-        .row{
-            .tituloProducto{
-                text-align: center;
-                text-transform: uppercase;
-            }
-        }
+    h2{
+        text-align: center;
     }
-    .carrito:hover{
-        background-color: white;
+    .containerProductos{
+        .carrito:hover{
+            background-color: rgb(131, 131, 131);
+        }
     }
 }
