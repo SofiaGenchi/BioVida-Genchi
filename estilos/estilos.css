@@ -61,11 +61,66 @@ footer .iconRedes:hover {
 }
 
 .mainProductos h2 {
+  color: #fff;
+  background: rgba(186, 121, 0, 0.707);
+  padding: 10px 20px;
   text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.mainProductos .containerProductos .carrito:hover {
-  background-color: #838383;
+.mainProductos .box {
+  border-bottom: 20px solid rgba(186, 121, 0, 0.707);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.mainProductos .box ul {
+  position: relative;
+  background: #fff;
+}
+
+.mainProductos .box ul:hover li {
+  opacity: 0.2;
+}
+
+.mainProductos .box ul li {
+  list-style: none;
+  padding: 10px;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+}
+
+.mainProductos .box ul li:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 100;
+  background: rgba(186, 121, 0, 0.707);
+  -webkit-box-shadow: 0 5px25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px25px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  opacity: 1;
+}
+
+.mainProductos .box ul li span {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background: rgba(186, 121, 0, 0.412);
+  color: #fff;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
 }
 
 .mainSesion h2 {
