@@ -9,21 +9,7 @@ body {
 }
 
 footer{
-    background-color: whitesmoke;
-    .containerRedes{
-        .rowRedes{
-            h3{
-                text-align: center;
-                display: flex;
-                align-items: center;
-            }
-        }
-        .col{
-            display: flex;
-            justify-content: center;
-            img:hover{
-                background-color: #F2ECD8;
-            }
-        }
+    .iconRedes:hover{
+        opacity: 50%;
     }
 }

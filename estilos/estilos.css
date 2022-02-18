@@ -9,31 +9,8 @@ body {
   background-color: #ffffff;
 }
 
-footer {
-  background-color: whitesmoke;
-}
-
-footer .containerRedes .rowRedes h3 {
-  text-align: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-footer .containerRedes .col {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-footer .containerRedes .col img:hover {
-  background-color: #F2ECD8;
+footer .iconRedes:hover {
+  opacity: 50%;
 }
 
 .mainIndex section h1 {
@@ -46,36 +23,13 @@ footer .containerRedes .col img:hover {
   margin-bottom: 200px;
 }
 
-.mainIndex .container-fluid .row .colContenedor {
-  height: 300px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.mainIndex .card-group h5, .mainIndex .card-group p {
+  text-align: center;
 }
 
-.mainIndex .container-fluid .row .colContenedor .colContenedorSmall {
-  margin: 0 auto;
-  height: 70%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.mainIndex .container-fluid .row .colContenedor .colContenedorSmall img {
-  width: 100px;
+.mainIndex .card-group .card:hover {
+  background-color: rgba(186, 111, 0, 0.556);
+  opacity: 75%;
 }
 
 .mainProductos .container .row .tituloProducto {
