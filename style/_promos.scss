@@ -1,0 +1,61 @@
+.mainPromo{
+    h2{
+        background-color: #F2C49B;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .promo1{
+        background-color: #F29F05;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+    .promo2{
+        background-color: #F27405;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+    .promo3{
+        background-color: #A6652D;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+    .promo4{
+        background-color: #A6652D;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+    .promo5{
+        background-color: #F27405;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+    .promo6{
+        background-color: #F29F05;
+        text-align: center;
+        &:hover{
+            transition: transform 0.5s;
+            transform: scale(1.1);
+            z-index: 100;
+        }
+    }
+}
