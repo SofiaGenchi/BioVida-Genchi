@@ -1,14 +1,14 @@
 .mainProductos{
     h2{
         color: #fff;
-        background: rgba(186, 121, 0, 0.707);
+        background: $color-productos;
         padding: 10px 20px;
         text-align: center;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
     .box{
-        border-bottom: 20px solid rgba(186, 121, 0, 0.707);
+        border-bottom: 20px solid $color-productos;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
         
@@ -31,7 +31,7 @@
                 &:hover{
                     transform: scale(1.1);
                     z-index: 100;
-                    background: rgba(186, 121, 0, 0.707);
+                    background: $color-productos;
                     box-shadow: 0 5px 25px rgba(0, 0, 0, .2);
                     color: #fff;
                     opacity: 1;
