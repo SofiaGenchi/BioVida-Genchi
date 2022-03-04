@@ -1,6 +1,7 @@
 .mainSesion{
-    h2{
+    legend{
         text-align: center;
+        text-transform: uppercase;
     }
     form{
         border: $border-form;
@@ -8,10 +9,11 @@
         background-color: mintcream;
     }
 }
-.mainCrear{
-    h2{
+.divCrear{
+    margin-top: 10%;
+    legend{
         text-align: center;
-        margin-top: 10%;
+        text-transform: uppercase;
     }
     form{
         border: $border-form;

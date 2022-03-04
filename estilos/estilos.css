@@ -195,8 +195,9 @@ footer .copyright {
   background-color: #838383;
 }
 
-.mainSesion h2 {
+.mainSesion legend {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .mainSesion form {
@@ -205,12 +206,16 @@ footer .copyright {
   background-color: mintcream;
 }
 
-.mainCrear h2 {
-  text-align: center;
+.divCrear {
   margin-top: 10%;
 }
 
-.mainCrear form {
+.divCrear legend {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.divCrear form {
   border: 4px solid #b7bbb9;
   padding: 20px;
   background-color: mintcream;
