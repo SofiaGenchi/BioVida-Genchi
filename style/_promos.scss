@@ -9,93 +9,30 @@
         margin-bottom: 20px;
     }
     .promo1{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo2{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo3{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo4{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo5{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo6{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo7{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo8{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
     .promo9{
-        background-color: #f0d4bc;
-        text-align: center;
-        border: 1px solid black;
-        &:hover{
-            transition: transform 0.5s;
-            transform: scale(1.1);
-            z-index: 100;
-        }
+        @extend %colorPromo;
     }
 }

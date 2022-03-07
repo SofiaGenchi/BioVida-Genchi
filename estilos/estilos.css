@@ -65,6 +65,22 @@ footer .copyright {
   color: #aaa;
 }
 
+.mainPromo .promo1, .mainPromo .promo2, .mainPromo .promo3, .mainPromo .promo4, .mainPromo .promo5, .mainPromo .promo6, .mainPromo .promo7, .mainPromo .promo8, .mainPromo .promo9 {
+  background-color: #f0d4bc;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.mainPromo .promo1:hover, .mainPromo .promo2:hover, .mainPromo .promo3:hover, .mainPromo .promo4:hover, .mainPromo .promo5:hover, .mainPromo .promo6:hover, .mainPromo .promo7:hover, .mainPromo .promo8:hover, .mainPromo .promo9:hover {
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  z-index: 100;
+}
+
 .mainIndex section h1 {
   text-transform: uppercase;
   text-align: center;
@@ -314,150 +330,6 @@ footer .copyright {
 .mainPromo .promosUno, .mainPromo .promosDos, .mainPromo .promosTres {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.mainPromo .promo1 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo1:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo2 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo2:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo3 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo3:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo4 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo4:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo5 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo5:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo6 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo6:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo7 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo7:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo8 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo8:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
-}
-
-.mainPromo .promo9 {
-  background-color: #f0d4bc;
-  text-align: center;
-  border: 1px solid black;
-}
-
-.mainPromo .promo9:hover {
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  z-index: 100;
 }
 
 @media (max-width: 425px) {
